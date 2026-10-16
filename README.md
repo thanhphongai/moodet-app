@@ -11,7 +11,8 @@ Trang giới thiệu tĩnh cho ứng dụng Moodet. Một file `index.html` + th
 Sau khi có tên miền, sửa `og:image` trong `index.html` thành URL tuyệt đối (ví dụ `https://moodet.app/img/post.jpg`) để ảnh xem trước hiện đúng khi chia sẻ.
 
 ## Ghi chú
-- Song ngữ VI/EN, sáng/tối, lựa chọn nhớ bằng localStorage.
+- Song ngữ VI/EN; mặc định chế độ sáng, người xem có thể chuyển tối, lựa chọn nhớ bằng localStorage.
+- `img/logo.png` là logo app (dùng cho nav, footer, favicon, ảnh OG).
 - Font Coiny, Baloo 2, Pacifico tải từ Google Fonts.
 - Ảnh trong `img/` từ Wikimedia Commons (CC0 / public domain).
 - `.nojekyll` để GitHub Pages không chạy Jekyll.
