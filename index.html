@@ -428,6 +428,9 @@ footer{padding-block:2.5rem 3rem;color:var(--muted);font-size:.92rem;border-top:
 .community .cm-txt span{color:var(--muted)}
 .btn-tiktok{background:var(--fg);color:var(--bg);gap:.6rem}
 .btn-tiktok svg{width:18px;height:18px}
+.btn-fb{background:#1877F2;color:#fff;gap:.6rem}
+.btn-fb svg{width:18px;height:18px}
+.cm-actions{display:flex;flex-wrap:wrap;gap:.7rem}
 @media (max-width:720px){.foot-grid{grid-template-columns:1fr 1fr}.foot-grid .foot-col:first-child{grid-column:span 2}}
 @media (max-width:480px){.foot-grid{grid-template-columns:1fr}.foot-grid .foot-col:first-child{grid-column:auto}}
 
@@ -885,8 +888,11 @@ footer{padding-block:2.5rem 3rem;color:var(--muted);font-size:.92rem;border-top:
       </div>
     </div>
     <div class="community reveal">
-      <div class="cm-txt"><b data-i18n="cm_title">Cộng đồng Moodet trên TikTok</b><span data-i18n="cm_sub">Mood của cả cộng đồng, mẹo dùng widget và những gì sắp ra mắt.</span></div>
+      <div class="cm-txt"><b data-i18n="cm_title">Cộng đồng Moodet</b><span data-i18n="cm_sub">Tham gia nhóm Facebook và theo dõi TikTok: mood của cả cộng đồng, mẹo dùng widget và những gì sắp ra mắt.</span></div>
+      <div class="cm-actions">
+      <a class="btn btn-fb" href="https://www.facebook.com/share/g/1FPNgJRxh3/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg><span data-i18n="cm_fb">Nhóm Facebook</span></a>
       <a class="btn btn-tiktok" href="https://www.tiktok.com/@moodet_team" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.6 5.8A4.3 4.3 0 0 1 15.5 3h-3.1v12.4a2.6 2.6 0 1 1-2.6-2.6c.3 0 .5 0 .8.1V9.7a5.7 5.7 0 1 0 4.9 5.7V9.2a7.3 7.3 0 0 0 4.3 1.4V7.5a4.3 4.3 0 0 1-3.2-1.7z"/></svg><span>@moodet_team</span></a>
+      </div>
     </div>
   </div>
 </section>
@@ -913,6 +919,7 @@ footer{padding-block:2.5rem 3rem;color:var(--muted);font-size:.92rem;border-top:
       </div>
       <div class="foot-col">
         <h4 data-i18n="foot_community">Cộng đồng</h4>
+        <a href="https://www.facebook.com/share/g/1FPNgJRxh3/" target="_blank" rel="noopener"><span class="soc"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></span><span data-i18n="foot_fb">Nhóm Facebook · Moodet</span></a>
         <a href="https://www.tiktok.com/@moodet_team" target="_blank" rel="noopener"><span class="soc"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.6 5.8A4.3 4.3 0 0 1 15.5 3h-3.1v12.4a2.6 2.6 0 1 1-2.6-2.6c.3 0 .5 0 .8.1V9.7a5.7 5.7 0 1 0 4.9 5.7V9.2a7.3 7.3 0 0 0 4.3 1.4V7.5a4.3 4.3 0 0 1-3.2-1.7z"/></svg></span>TikTok · @moodet_team</a>
         <span data-i18n="foot_more_soon">Các kênh khác sẽ sớm có mặt.</span>
       </div>
@@ -979,7 +986,7 @@ footer{padding-block:2.5rem 3rem;color:var(--muted);font-size:.92rem;border-top:
       q5:'Lỡ một ngày thì mất chuỗi?',a5:'Không hẳn. Bạn có thể cứu chuỗi ngay sau khi đăng lại. Moodet cũng nhắc bạn theo đúng múi giờ nơi bạn ở để khỏi lỡ.',
       q6:'Có bắt buộc đăng ảnh không?',a6:'Không. Bạn có thể chụp ảnh, chọn từ thư viện, quay một clip ngắn, hoặc chỉ gửi một cảm xúc kèm vài chữ.',
       cta_title:'Sẵn sàng thấy bạn thân đang thế nào?',cta_p:'Tải Moodet miễn phí, mời một người bạn, thêm widget. Phần còn lại tự đến.',
-      foot_tag:'Mood widget cho bạn thân. Chụp một khoảnh khắc, thêm một cảm xúc, hiện ngay trên màn hình chính của người bạn chọn.',foot_contact:'Liên hệ',foot_contact_sub:'Góp ý, báo lỗi hoặc hợp tác:',copy:'Sao chép',copied:'Đã sao chép',copied_manual:'Đã chọn, bấm Ctrl/⌘+C',foot_community:'Cộng đồng',foot_more_soon:'Các kênh khác sẽ sớm có mặt.',cm_title:'Cộng đồng Moodet trên TikTok',cm_sub:'Mood của cả cộng đồng, mẹo dùng widget và những gì sắp ra mắt.',foot_credit:'Ảnh minh hoạ: Wikimedia Commons (CC0 / public domain)',
+      foot_tag:'Mood widget cho bạn thân. Chụp một khoảnh khắc, thêm một cảm xúc, hiện ngay trên màn hình chính của người bạn chọn.',foot_contact:'Liên hệ',foot_contact_sub:'Góp ý, báo lỗi hoặc hợp tác:',copy:'Sao chép',copied:'Đã sao chép',copied_manual:'Đã chọn, bấm Ctrl/⌘+C',foot_community:'Cộng đồng',foot_more_soon:'Các kênh khác sẽ sớm có mặt.',cm_title:'Cộng đồng Moodet',cm_sub:'Tham gia nhóm Facebook và theo dõi TikTok: mood của cả cộng đồng, mẹo dùng widget và những gì sắp ra mắt.',cm_fb:'Nhóm Facebook',foot_fb:'Nhóm Facebook · Moodet',foot_credit:'Ảnh minh hoạ: Wikimedia Commons (CC0 / public domain)',
       ill_2:'Kéo widget ra màn hình chính',react_by:'Linh đã thả tim',inv_title:'Mời bạn thân',inv_copy:'Sao chép',inv_btn:'Chia sẻ link mời',inv_sub:'Từ danh bạ của bạn',inv_done:'Đã kết bạn',inv_invite:'Mời',wg_sub:'Ảnh và cảm xúc của bạn thân, ngay trên màn hình chính.',wg_btn:'Thêm tiện ích',w_ago2:'Vừa xong',
       b1_u:'mood mỗi ngày',b2_u:'người lạ',b3_u:'người, một widget',b4_u:'Rewind mỗi năm',prem_cta:'Xem Premium trong app',prem_note:'Huỷ bất cứ lúc nào trong cài đặt App Store hoặc Google Play.',prem_col_f:'Quyền lợi',prem_col_free:'Miễn phí',prem_col_pro:'Premium',
       pr_1:'Quảng cáo',pr_2:'Độ dài video',pr_3:'Ảnh từ thư viện',pr_4:'Biểu tượng app',pr_5:'Lưu ảnh về máy',pr_6:'Cứu chuỗi',pr_7:'Tính năng mới',pf_1:'Có',pf_2:'Clip ngắn',pf_3:'Giới hạn',pf_4:'Mặc định',pf_5:'Có watermark',pf_6:'Có giới hạn',pf_7:'Sau',pp_1:'Không',pp_2:'Đến 15 giây',pp_3:'Không giới hạn',pp_4:'Tất cả',pp_5:'Không watermark',pp_6:'Không giới hạn',pp_7:'Trải nghiệm trước',
@@ -1033,7 +1040,7 @@ footer{padding-block:2.5rem 3rem;color:var(--muted);font-size:.92rem;border-top:
       q5:'Do I lose my streak if I miss a day?',a5:'Not necessarily. You can restore your streak right after you post again. Moodet also reminds you in your local time zone so you don’t miss it.',
       q6:'Do I have to post a photo?',a6:'No. You can take a photo, pick one from your gallery, record a short clip, or just send a mood with a few words.',
       cta_title:'Ready to see how your besties feel?',cta_p:'Get Moodet for free, invite one friend, add the widget. The rest takes care of itself.',
-      foot_tag:'The mood widget for best friends. Snap a moment, add a feeling, and it lands on the Home Screen of the people you choose.',foot_contact:'Contact',foot_contact_sub:'Feedback, bug reports or partnerships:',copy:'Copy',copied:'Copied',copied_manual:'Selected, press Ctrl/⌘+C',foot_community:'Community',foot_more_soon:'More channels coming soon.',cm_title:'The Moodet community on TikTok',cm_sub:'Moods from the whole community, widget tips and what is coming next.',foot_credit:'Photos: Wikimedia Commons (CC0 / public domain)',
+      foot_tag:'The mood widget for best friends. Snap a moment, add a feeling, and it lands on the Home Screen of the people you choose.',foot_contact:'Contact',foot_contact_sub:'Feedback, bug reports or partnerships:',copy:'Copy',copied:'Copied',copied_manual:'Selected, press Ctrl/⌘+C',foot_community:'Community',foot_more_soon:'More channels coming soon.',cm_title:'The Moodet community',cm_sub:'Join the Facebook group and follow us on TikTok: moods from the whole community, widget tips and what is coming next.',cm_fb:'Facebook group',foot_fb:'Facebook group · Moodet',foot_credit:'Photos: Wikimedia Commons (CC0 / public domain)',
       ill_2:'Drag the widget to your Home Screen',react_by:'Linh sent a heart',inv_title:'Invite a bestie',inv_copy:'Copy',inv_btn:'Share invite link',inv_sub:'From your contacts',inv_done:'Friends',inv_invite:'Invite',wg_sub:'Your besties\u2019 photos and moods, right on your Home Screen.',wg_btn:'Add Widget',w_ago2:'Just now',
       b1_u:'mood a day',b2_u:'strangers',b3_u:'people, one widget',b4_u:'Rewinds a year',prem_cta:'See Premium in the app',prem_note:'Cancel anytime in your App Store or Google Play settings.',prem_col_f:'Perk',prem_col_free:'Free',prem_col_pro:'Premium',
       pr_1:'Ads',pr_2:'Video length',pr_3:'Gallery photos',pr_4:'App icons',pr_5:'Saving to camera roll',pr_6:'Streak restores',pr_7:'New features',pf_1:'Yes',pf_2:'Short clips',pf_3:'Limited',pf_4:'Default',pf_5:'With watermark',pf_6:'Limited',pf_7:'Later',pp_1:'None',pp_2:'Up to 15 s',pp_3:'Unlimited',pp_4:'All of them',pp_5:'No watermark',pp_6:'Unlimited',pp_7:'Early access',
